@@ -5,7 +5,7 @@
 }
 body{
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(to bottom,#009688 25%, #d6dbd8 75%);
+  background: linear-gradient(to bottom, #009688 0%,#009688 15%, #DADBD4 15%, #DADBD4 85%);
 }
 main{
   height: 100vh;
