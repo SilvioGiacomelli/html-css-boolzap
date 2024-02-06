@@ -71,7 +71,6 @@ img{
   height: calc(100% - 140px);
   overflow-y: auto;
   background-image: url(img/mine.jpg);
-  position: relative;
 }
 .users-library{
   height: calc(100% - 170px);
@@ -190,28 +189,41 @@ img{
 }
 .green{
   background-color: #d5f9ba;
-  align-self: flex-start;
-  right: 0;
-  top: 0;
+  align-self: flex-end;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .green p{
   font-size: small;
 }
 .white{
   background-color: #ffffff;
-  align-self: flex-end;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .white p{
   font-size: small;
-  left: 0;
-  bottom: 0;
 }
 .bubble{
   border-radius: 20px;
   padding: 15px;
   width: 55%;
   max-width: 500px;
+  position: relative;
+}
+.bubble-chevron{
   position: absolute;
+  top: 4%;
+  right: 5%;
+  color: #dedee0;
+}
+.bubble-time{
+  position: absolute;
+  bottom: 1%;
+  right: 3%;
+  color: #dedee0;
 }
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
 @media screen and (min-width: 993px) {
