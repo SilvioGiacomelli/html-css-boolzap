@@ -71,6 +71,7 @@ img{
   height: calc(100% - 140px);
   overflow-y: auto;
   background-image: url(img/mine.jpg);
+  position: relative;
 }
 .users-library{
   height: calc(100% - 170px);
@@ -177,7 +178,6 @@ img{
   max-width: 100%;
   max-height: 100%;
 }
-
 .chat-status p{
   color: #878d8f;
   font-size: 0.8rem;
@@ -188,7 +188,31 @@ img{
   padding-top: 5%;
   padding-left: 8%;
 }
-
+.green{
+  background-color: #d5f9ba;
+  align-self: flex-start;
+  right: 0;
+  top: 0;
+}
+.green p{
+  font-size: small;
+}
+.white{
+  background-color: #ffffff;
+  align-self: flex-end;
+}
+.white p{
+  font-size: small;
+  left: 0;
+  bottom: 0;
+}
+.bubble{
+  border-radius: 20px;
+  padding: 15px;
+  width: 55%;
+  max-width: 500px;
+  position: absolute;
+}
 /* MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY  */
 @media screen and (min-width: 993px) {
   
