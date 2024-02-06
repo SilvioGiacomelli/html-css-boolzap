@@ -92,6 +92,13 @@ img{
 }
 .icon-text{
   width: 75%;
+  position: relative;
+}
+#hour{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 0.8rem;
 }
 .icon-text h3{
   padding-left: 2%;
